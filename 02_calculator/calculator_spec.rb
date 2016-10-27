@@ -79,9 +79,20 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers"
 
-  it "multiplies several numbers"
+  it "multiplies 0 and 0" do
+    expect(multiply(0,0)).to eq(0)
+  end
+
+  it "multiplies 2 and 2" do
+    expect(multiply(2,2)).to eq(4)
+  end
+
+  it "multiplies positive numbers" do
+    expect(multiply(2,6)).to eq(12)
+  end
+
+ 
   
 end
 
